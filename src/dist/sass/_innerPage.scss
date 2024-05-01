@@ -1,0 +1,16 @@
+.vendercustomer {
+    &_ {
+        img {
+            width: 2rem;
+            height: 2rem;
+           border-radius: 50%;
+           &:not(:first-child) {
+            margin-left: -0.5rem;
+           }
+        }
+    }
+}
+.venderview {
+    border-bottom: 2px solid #ddd;
+    padding: .5rem 0;
+}

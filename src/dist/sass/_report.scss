@@ -1,0 +1,46 @@
+.reportssCard {
+  background: #fff;
+  border-radius: 2rem;
+    .viewall {
+        font-weight: 600;
+        color: $primary-color;
+        text-transform: capitalize;
+    }
+  .h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  &_head {
+
+    div {
+      font-size: 14px;
+      font-weight: 600;
+      color: #8b90ac;
+    }
+  }
+  &_body {
+    &Box {
+        &1 {
+            font-weight: 500;
+        }
+        &2 {
+            border-radius: .4rem;
+            font-size: 17px;
+            text-align: center;
+            background: #CFF5EC;
+            color: #05CD99;
+            font-weight: 600;
+            padding: .2rem 1rem;
+            &.gree {
+                background: #CFF5EC;
+                color: #05CD99;
+            }
+            &.redd {
+                background: #FFD6E0;
+                color: #ED2656;
+
+            }
+        }
+    }
+  }
+}

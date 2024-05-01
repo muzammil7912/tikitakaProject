@@ -1,0 +1,23 @@
+.header {
+    border-bottom: .1rem solid #ddd;
+    padding: 0.5rem 2rem;
+    position: relative;
+    z-index: 9;
+    &__left {
+        h1 {
+            margin: 0;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+    }
+    &__right {
+        .profileimg{
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+}

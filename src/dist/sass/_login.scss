@@ -1,0 +1,68 @@
+.loginPage {
+  background: #e8effc;
+  &__right {
+    &-logo {
+      img {
+        width: 3rem;
+      }
+      span {
+        font-size: 1.2rem;
+        line-height: 1.1;
+      }
+    }
+    h1 {
+      font-size: 2rem;
+      color: $secondary-color;
+    }
+    p {
+      color: #667085;
+    }
+  }
+}
+
+.SignInPage {
+  grid-template-columns: 3fr 7fr;
+  background: #e8effc;
+  .arrowArrow  {
+    img {
+      width: 2.5rem;
+    }
+    span {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+  }
+  &__left {
+    img {
+      width: 100%;
+    }
+  
+  }
+  &__right {
+    overflow-y: auto;
+    max-height: 100vh;
+    .h3 {
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .h4 {
+      font-size: 30px;
+      font-weight: 500;
+    }
+
+  &Box {
+    // grid-template-columns: ;
+  }
+  }
+}
+.reuser {
+  a {
+    color: $primary-color;
+  
+  }
+}
+
+
+input:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}

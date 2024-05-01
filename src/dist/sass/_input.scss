@@ -1,0 +1,99 @@
+.inputfeild {
+    label {
+        color: $secondary-color;
+        line-height: 1;
+        font-weight: 500;
+        
+    }
+    input {
+        padding: .5rem 1.2rem;
+        outline: none;
+        border: .1rem solid #ddd;
+        border-radius: .4rem;
+    }
+    select {
+        padding: .5rem 1.2rem;
+        outline: none;
+        border: .1rem solid #ddd;
+        border-radius: .4rem;
+    }
+    textarea {
+        padding: 0.5rem 1.2rem;
+        outline: none;
+        border: 0.1rem solid #ddd;
+        border-radius: 0.4rem;
+        height: 10rem;
+    }
+    .password {
+        position: relative;
+        span {
+            cursor: pointer;
+            position: absolute;
+            right: 1rem;
+            top: 48%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.inputfeild2  {
+    position: relative;
+    label {
+        position: absolute;
+        left: 1rem;
+        top: -0.4rem;
+        font-size: 0.7rem;
+        background: #fff;
+        padding: 0.1rem 0.5rem;
+    }
+    input {
+        padding: .5rem 2rem;
+        outline: none;
+        border: .1rem solid #ddd;
+        border-radius: .4rem;
+    }
+}
+
+.inputfeild2 {
+    position: relative;
+    label {
+        position: absolute;
+        left: 1rem;
+        top: -0.4rem;
+        font-size: 0.7rem;
+        background: #fff;
+        padding: 0.1rem 0.5rem;
+    }
+
+    select {
+        padding: .5rem 2rem;
+        outline: none;
+        border: .1rem solid #ddd;
+        border-radius: .4rem;
+    }
+    textarea {
+        padding: 0.5rem 2rem;
+        outline: none;
+        border: 0.1rem solid #ddd;
+        border-radius: 0.4rem;
+        height: 10rem;
+    }
+}
+
+.fileDocumet {
+    background: #fff;
+    border-radius: 1rem;
+    position: relative;
+    input {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+    }
+    &__left {
+        img {
+            width: 2rem;
+        }
+    }
+}

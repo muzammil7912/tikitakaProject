@@ -1,0 +1,24 @@
+.btn {
+    &-primary {
+        background: $primary-color;
+        padding: .8rem 2rem;
+        color: #fff;
+        border-radius: .6rem;
+    }
+}
+
+.profilebtn {
+    padding: 0.9rem 2.5rem;
+    margin-left: auto;
+}
+.btn {
+    &-ant {
+        padding: .4rem 1rem;
+    }
+    &-secondary  {
+        border-radius: .3rem;
+        border: 1px solid #ddd;
+        padding: .8rem 2rem;
+    }
+}
+
